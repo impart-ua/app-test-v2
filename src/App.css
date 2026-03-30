@@ -1,0 +1,22 @@
+.app {
+  max-width: 720px;
+  margin: 80px auto;
+  padding: 24px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+p {
+  margin-bottom: 16px;
+  color: #cbd5e1;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
