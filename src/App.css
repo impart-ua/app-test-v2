@@ -1,22 +1,97 @@
-.app {
-  max-width: 720px;
-  margin: 80px auto;
-  padding: 24px;
-  text-align: center;
+.login-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F5F6F8;
 }
 
-h1 {
+.login-card {
+  width: 400px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+}
+
+.logo-placeholder {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #E8EDF2;
+  margin: 0 auto 24px;
+}
+
+.auth-button {
   margin-bottom: 12px;
 }
 
-p {
-  margin-bottom: 16px;
-  color: #cbd5e1;
+.google-button {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  color: rgba(0, 0, 0, 0.88);
 }
 
-button {
-  padding: 10px 16px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+.google-button:hover {
+  background: #fafafa;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.github-button {
+  background: #24292E;
+  border: 1px solid #24292E;
+  color: #ffffff;
+}
+
+.github-button:hover {
+  background: #3a3f44;
+  border-color: #3a3f44;
+  color: #ffffff;
+}
+
+.more-options-button {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.more-options-button:hover {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.secondary-options {
+  margin-bottom: 12px;
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  font-size: 13px;
+  color: #0E8EE9;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  font-size: 11px;
+  color: #9AA3AF;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #9AA3AF;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
